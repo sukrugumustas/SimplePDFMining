@@ -5,10 +5,7 @@
 # Şükrü Gümüştaş, 150114032
 from __future__ import division
 
-import io
-import re
-import matplotlib.pyplot as plt
-import nltk
+import io, re, matplotlib.pyplot as plt, nltk
 nltk.download('punkt')
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
