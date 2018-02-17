@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+#   Marmara University - Computer Engineering Department
+#   Simple PDF Mining Project
 #   Hilal Balcı, 150114047
 #   Atakan Ülgen, 150115066
 #   Şükrü Gümüştaş, 150114032
+
 import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords

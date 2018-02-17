@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+#   Marmara University - Computer Engineering Department
+#   Simple PDF Mining Project
 #   Hilal Balcı, 150114047
 #   Atakan Ülgen, 150115066
 #   Şükrü Gümüştaş, 150114032
+
 import math
 from collections import Counter
 
@@ -16,8 +20,7 @@ def tf_word_list_creator(document):
     #   This line counts the maximum term in document
     maximum = Counter(document).most_common(1)[0][1]
     i = 0
-    #   From Wikipedia as Prof. Ganiz described, we used tf formula as
-    #   (count of word in that document/maximum occuring term number)
+    #   From Wikipedia, we used tf formula as (count of word in that document/maximum occuring term number)
     while i < len(return_list):
         return_list[i] = [return_list[i], document.count(return_list[i]) / maximum]
         i += 1

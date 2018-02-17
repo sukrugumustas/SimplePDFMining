@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Hilal Balcı, 150114047
-# Atakan Ülgen, 150115066
-# Şükrü Gümüştaş, 150114032
+
+#   Marmara University - Computer Engineering Department
+#   Simple PDF Mining Project
+#   Hilal Balcı, 150114047
+#   Atakan Ülgen, 150115066
+#   Şükrü Gümüştaş, 150114032
+
 from __future__ import division
 
 import io, re, matplotlib.pyplot as plt, nltk
